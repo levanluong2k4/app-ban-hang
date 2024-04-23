@@ -1,0 +1,150 @@
+*{
+    box-sizing: border-box;
+    margin: 0px ;
+}
+html{
+    font-family: 'roboto', arial, helvetica, sans-serif;
+}
+.logo{
+    text-align: center;
+
+}
+.logo img{
+   width: 600px;
+   height: 400px;
+   
+}
+a{
+    text-decoration: none;
+    color: black
+}
+
+.head1{
+    text-align: center;
+    font-size: 25px;
+    background-color: #eef0f075;
+    position:static;
+    margin-bottom: 10px;
+    position: relative;
+}
+.head1 li{
+   
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px 30px;
+    justify-content: center;
+    align-items: center;
+  
+}
+.head2 {
+    display: inline-block;
+    position: absolute;
+    top: 8px;
+    left: 100px;
+}
+.head3 {
+    font-size: 30px;
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    right: 100px;
+}
+.head2 img{
+    width: 100px;
+    height: 50px;
+ 
+}
+.head1 .logowin img{
+    padding-top: 15px;
+    width: 100px;
+    height: 50px;
+}
+.head1 li:hover {
+    background-color: #ff4d4d;
+}
+.head1 .trangchu{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.438);
+}
+.home {
+    
+    width: 90%;
+    margin: 0px auto;
+    display: flex;
+    margin-bottom: 20px;
+}
+.slider{
+    text-align: center;
+    width: 60%;
+    display: flex;
+    position: relative;
+   
+}
+.icon1,.icon2{
+   
+    width: 30px;
+    height: 30px;
+    background-color: #e40a0ac9;
+    z-index: 100;
+    border-radius:50% ;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.icon1{
+    position: absolute;
+    top: 200px;
+    left: 0px;
+}
+.icon2{
+    position: absolute;
+    top: 200px;
+    left: 840px;
+}
+.slider  i{
+   font-size: 30px;
+}
+.slider2{
+    width: 20%;
+}
+.slider2 img{
+    margin-left: 180px;
+    width: 300px;
+    height: 200px;
+}
+.mota{
+    font-size: small;
+    display: flex;
+    width: 90%;
+    margin: 0px auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.mota div{
+    border: 2px solid rgba(0, 0, 0, 0.219);
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px black;
+    width: 30%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.mota div img{
+    width: 200px;
+    height: 300px;
+}
+table,tr,td,th{
+    border-right: 2px solid rgba(0, 0, 0, 0.164);
+    border-collapse: collapse;
+}
+thead{
+    background-color: #fffa65;
+}
+th,td{
+   padding: 10px 20px;
+}
+.dspill{
+    width: 30%;
+}
+.menu_food{
+    width: 70%;
+}
