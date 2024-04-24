@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>onchange Example</title>
+</head>
+<body>
+    <label for="inputValue">Nhập số:</label>
+    <input type="text" id="inputValue">
+
+    <p id="result"></p>
+
+    <script>
+        // Lấy tham chiếu đến phần tử input
+        var inputElement = document.getElementById("inputValue");
+
+        // Gắn sự kiện onchange cho phần tử input
+        inputElement.onchange = function() {
+            // Lấy giá trị nhập vào từ input
+            var value = inputElement.value;
+
+            // Hiển thị kết quả
+            document.getElementById("result").innerText = "Bạn vừa nhập số: " + value;
+        };
+    </script>
+</body>
+</html>

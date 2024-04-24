@@ -132,19 +132,123 @@ a{
     width: 200px;
     height: 300px;
 }
-table,tr,td,th{
+table,td,th{
     border-right: 2px solid rgba(0, 0, 0, 0.164);
     border-collapse: collapse;
 }
 thead{
-    background-color: #fffa65;
+    background-color: #fff200;
 }
 th,td{
    padding: 10px 20px;
 }
+
 .dspill{
     width: 30%;
+    text-align: center;
+    background-color: #ff4d4d;
 }
 .menu_food{
     width: 70%;
 }
+th:nth-child(4){
+    border-right: none;
+   
+}
+tbody{
+    background-color: whitesmoke;
+}
+table{
+  margin-left: 25px;
+    border-bottom:2px solid rgba(0, 0, 0, 0.164); 
+}
+td:nth-child(4){
+    border-right: none;
+}
+.pill{
+    background-color: #ff4d4d;
+}
+.main_menu{
+    display: flex;
+}
+.menu_food{
+    display: flex;
+    flex-wrap: wrap;
+}
+.drink{
+    width: 100%;
+    border-radius: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu_food .drink .boderdrink{
+    border: 2px solid rgba(0, 0, 0, 0.247);
+    width: 32%;
+    margin: 2px;
+}
+.menu_drink{
+    width: 100%;
+    background-color: rgb(206, 38, 8);
+}
+.menu_drink h2{
+    text-align: center;
+    color: white;
+}
+.menu_food .drink div img {
+    width: 100px;
+    height: 150px;
+}
+.drink1,.drink2,.drink3,.drink4,.drink5,.drink6,.drink7,.drink8,.drink9,.drink10,.drink11 {
+
+    display: flex;
+}
+.size{
+    padding: 10px 0px;
+    display: flex;
+}
+.money{
+    display: flex;
+    margin: 5px 0px;
+}
+.money p{
+    padding-right: 10px;
+}
+.money p:nth-child(1){
+    color: red;
+}
+del{
+    opacity: 0.5;
+}
+.inputsl input{
+    width: 50px;
+}
+.inputsl i{
+    color: white;
+    background-color: red;
+    padding: 2px;
+   
+}
+#oke{
+    padding: 20px 50px;
+    background-color: #ff4d4d;
+    color: aliceblue;
+    border: none;
+    font-size: 20px;
+    
+    margin-right: 30px;
+}
+.sum{
+    display: flex;
+    float: right;
+   font-size: 20px;
+}
+.sum p{
+    padding: 20px 0px;
+}
+
+
+
+
+
+
+
